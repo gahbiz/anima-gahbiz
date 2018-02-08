@@ -1,0 +1,113 @@
+
+ /*configuração menu*/
+nav {
+	background-color: red;
+}
+
+a {
+	color: white;
+}
+
+a#home:hover {
+	color: yellow;
+}
+
+a#sobre:hover {
+	color: #00FFFF;
+}
+
+a#port:hover {
+	color: #00FF00;
+}
+
+a#contato:hover {
+	color: #FF00FF;
+}
+
+#navbar-conteudo {
+	margin: 0 auto;
+	display: flex;
+}
+
+/*configuração home*/
+#logo {
+	margin-top: 50px;
+	width: 300px;
+	height: 150px;
+	margin: auto;
+
+	
+}
+
+figure.foto-legenda {
+	/*position: relative;*/
+	/*margin-top: -95px;*/
+	/*float: left;*/
+	/*margin-left: 90px;*/
+	border: 10px solid yellow;
+	box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda img {
+	width: 150px;
+	height: 250px;
+}
+
+figure.foto-legenda figcaption {
+	text-align: center;
+    /*position: absolute;
+    top: 320px;
+    color: black;
+    width: 300px;
+    height: 400px;
+    padding: 10px;*/
+}
+
+figure.video-legenda {
+	/*position: relative;*/
+	/*margin-top: -200px;*/
+	/*float: right;*/
+	/*margin-right: 90px;*/
+	border: 10px solid orange;
+	box-shadow: 1px 1px 4px black;
+}
+
+
+figure.video-legenda video {
+	width: 400px;
+	height: 300px;
+}
+
+figure.video-legenda figcaption {
+	/*position: absolute;*/
+    /*top: 490px;*/
+    text-align: center;
+    /*width: 700px;
+    height: 600px;
+    padding: 10px;*/
+}
+
+video.mega-cine {
+	background: url("");	
+}
+
+/*configuração sobre mim*/
+section#sobre {
+	margin: 0;
+	width: 100%;
+	height: 660px;
+	background-color: #00FFFF;
+}
+
+section#sobre h2 {
+	font-size: 15pt;
+	color: white;
+	margin: auto;
+}
+section#sobre p {
+	font-size: 13pt;
+	color: white;
+	margin: auto;
+	text-align: center;
+	text-shadow: black;
+}

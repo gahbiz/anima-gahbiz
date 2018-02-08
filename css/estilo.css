@@ -1,0 +1,74 @@
+body {
+	font-family: Comic Sans MS;
+}
+
+ /*configuração menu*/
+nav {
+	background-color: #eb1c24;
+
+}
+
+
+a {
+	color: white;
+}
+
+a#home:hover {
+	color: yellow;
+}
+
+a#sobre:hover {
+	color: #00FFFF;
+}
+
+a#port:hover {
+	color: #00FF00;
+}
+
+a#contato:hover {
+	color: #FF00FF;
+}
+
+#navbar-conteudo {
+	margin: 0 auto;
+	display: flex;
+	
+}
+#navbar-conteudo ul{
+	margin-left: -12%;
+}
+
+/*Menu topo*/
+figure#logo{
+	margin-left: 36%;
+	margin-top: 80px;
+}
+
+/*seção principal*/
+.pricipal {
+	width: 100%;
+	margin-top: 50px;
+}
+
+figure#capacete1 {
+	width: 150px;
+	height: 250px;
+}
+
+figure#capacete1 figcaption {
+	text-align: center;
+}
+
+figure#mega1 {
+	border: 10px solid red;
+	box-shadow: 7px 7px 7px red;
+}
+
+figure#mega1 {
+	width: 400px;
+	height: 300px;
+}
+
+figure#mega1 figcaption {
+	text-align: center;
+}
